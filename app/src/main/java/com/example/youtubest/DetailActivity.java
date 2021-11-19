@@ -39,10 +39,7 @@ public class DetailActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + youtubeVideo.getUrl()));
                 Intent webIntent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse( youtubeVideo.getUrl()));
-                //https://www.youtube.com/https:/www.youtube.com/watch?v=EKiLMRSSWEo&ab_channel=l%C3%A9onardMaron
-                //https://www.youtube.com/EKiLMRSSWEo&ab_channel=l%C3%A9onardMaron
-                //https://www.youtube.com/yuvirehky04&ab_channel=FreemeNCSMusic
+                        Uri.parse( "https://www.youtube.com/watch?v="+youtubeVideo.getUrl()));
                 try {
                     startActivity(appIntent);
                 } catch (ActivityNotFoundException ex) {

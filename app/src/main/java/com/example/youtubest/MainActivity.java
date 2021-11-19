@@ -98,6 +98,12 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(intent);
                 return true;
+
+            case R.id.addPlaylist:
+                Intent intent2 = new Intent(context, PlaylistActivity.class);
+                startActivity(intent2);
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }

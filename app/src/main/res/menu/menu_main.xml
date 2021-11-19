@@ -6,4 +6,9 @@
         android:id="@+id/addYouTube"
         android:title="Add"
         app:showAsAction="never"/>
+    <item
+        android:allowBackup="true"
+        android:id="@+id/addPlaylist"
+        android:title="Add Playlist"
+        app:showAsAction="never"/>
 </menu>
