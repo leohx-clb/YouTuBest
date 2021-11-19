@@ -4,5 +4,5 @@ application Android liste de vidéo
 - V2 on peu ajouter des playliste directement
 
 important on ne prend pas tout le lien
-https://www.youtube.com/playlist?list=PLL2zppSa3-yr54P8VEwYHkQ2CYx64o8Y-
+https://www.youtube.com/playlist?list=PLL2zppSa3-yr54P8VEwYHkQ2CYx64o8Y- \
 ex : PLL2zppSa3-yr54P8VEwYHkQ2CYx64o8Y-
